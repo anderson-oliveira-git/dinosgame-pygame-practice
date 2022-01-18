@@ -20,7 +20,7 @@ game_title = pg.display.set_caption(GAME_NAME)
 
 # characters
 # Pos_x e Pos_y são o tamanho da tela divisão inteira por 2 menos metade do tamanho do personagem
-player = Player("assets/idle/player_0.png", SCREEN_SIZE[0]//2 - 36, SCREEN_SIZE[1]//2 - 36 + 50)
+player = Player("assets/idle/player_0.png", SCREEN_SIZE[0] // 2 - 36, SCREEN_SIZE[1] // 2 - 36 + 50)
 
 # platfforms game
 platforms = [
